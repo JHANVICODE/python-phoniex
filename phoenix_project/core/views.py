@@ -1,6 +1,5 @@
-import requests
 from django.shortcuts import render,redirect
-from .models import *
+from .models import User
 from .forms import detailsform
 
 from decimal import Decimal
