@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'PhoenixProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'PHONENIX_db',
+        'NAME': 'New_phoenix',
         'USER': 'postgres',
         'PASSWORD': 'admin',
         'HOST': 'localhost',
