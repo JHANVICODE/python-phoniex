@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'PhoenixProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'New_phoenix',
+        'NAME': 'python_anywhere_db',
         'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'PASSWORD': 'postgres',
+        'HOST': 'visionx-staging.cxx38vej3xlp.us-east-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
